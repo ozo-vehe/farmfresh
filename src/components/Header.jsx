@@ -7,7 +7,7 @@ import support from "../assets/support.png";
 function Header() {
 
   return (
-    <header className="h-screen flex items-start lg:items-center relative w-screen">
+    <header className="h-screen flex items-start lg:items-center relative">
       <img className="absolute top-0 left-0 w-full h-[80vh] lg:h-[90vh] object-cover -z-10" src={image} alt="Background Image"/>
       <div className="header_text px-10 pt-20 lg:py-0">
         <h3 className="text-[#BF9B0B]">Taste the Freshness</h3>
