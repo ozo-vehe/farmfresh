@@ -1,12 +1,13 @@
-import Homepage from "./pages/Homepage";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
-function App() {
-
+export default function App() {
   return (
-    <>
-      <Homepage />
-    </>
+  <section className="">
+  <Navbar/>
+    <Outlet/>
+  <Footer/>
+  </section>
   )
 }
-
-export default App
