@@ -17,12 +17,12 @@ function Header() {
         <button className="text-slate-100 bg-green-500 cursor-pointer w-[200px] rounded-lg py-3 px-3">Shop now</button>
       </div>
 
-      <div className="bg-white shadow-md rounded-[18px] absolute bottom-0 left-[50%] -translate-x-1/2 flex flex-wrap items-center justify-center gap-7 px-10 py-6 w-full lg:w-[70%] md:w-[80%] sm:w-full">
+      <div className="bg-white shadow-md rounded-[18px] absolute bottom-0 left-[50%] -translate-x-1/2 flex flex-wrap items-center justify-center gap-7 lg:px-10 md:px-10 px-4 py-6 w-[95%] lg:w-[70%] md:w-[80%] sm:w-full">
         <div className="services flex flex-col items-center">
           <img src={shipping} alt="Free shipping" />
           <div className="service_details text-center mt-4">
             <h3 className="font-bold">Free shipping </h3>
-            <p className="text-sm text-gray-500">Free shipping within Lagos</p>
+            <p className="lg:text-sm md:text-sm text-[12px] text-gray-500">Free shipping within Lagos</p>
           </div>
         </div>
 
@@ -30,7 +30,7 @@ function Header() {
           <img src={money} alt="money back" />
           <div className="service_details text-center mt-4">
             <h3 className="font-bold">100% Money back</h3>
-            <p className="text-sm text-gray-500">30 days money payment</p>
+            <p className="lg:text-sm md:text-sm text-[12px] text-gray-500">30 days money payment</p>
           </div>
         </div>
 
@@ -38,7 +38,7 @@ function Header() {
           <img src={support} alt="Support" />
           <div className="service_details text-center mt-4">
             <h3 className="font-bold">Support 24/7</h3>
-            <p className="text-sm text-gray-500">We support 24hrs a day</p>
+            <p className="lg:text-sm md:text-sm text-[12px] text-gray-500">We support 24hrs a day</p>
           </div>
         </div>
 
@@ -46,7 +46,7 @@ function Header() {
           <img src={payment} alt="Payment" />
           <div className="service_details text-center mt-4">
             <h3 className="font-bold">Secure payment</h3>
-            <p className="text-sm text-gray-500">We ensure secure payment</p>
+            <p className="lg:text-sm md:text-sm text-[12px] text-gray-500">We ensure secure payment</p>
           </div>
         </div>
       </div>
